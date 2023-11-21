@@ -20,7 +20,7 @@ const myTags = [
     'WRITE', 'WRITE', 'WRITE',
 ];
 
-// Funtion
+// Function
 var tagCloud = TagCloud('.content', myTags, {
     radius: 250,
     maxSpeed: 'fast',
@@ -29,7 +29,7 @@ var tagCloud = TagCloud('.content', myTags, {
     keep: true
 });
 
-// Rondam color
+// Random color
 var colors = ['#CE5A67','#fff', '#C7DCA7', '#9BCDD2', '#FFA559', '#DEBACE', '#CFD2CF', '#DBDFFD', '#DAE5D0'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector('.content').style.color = random_color;
